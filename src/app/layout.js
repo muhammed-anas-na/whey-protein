@@ -20,6 +20,18 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+      <link
+          href="https://fonts.cdnfonts.com/css/neue-haas-grotesk-display-pro"
+          rel="stylesheet"
+        />
+        <style>{`
+  body {
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    background-color: white;
+  }
+        `}</style>
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
