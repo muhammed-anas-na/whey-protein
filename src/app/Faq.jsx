@@ -27,7 +27,7 @@ const FaqSection = () => {
 
     return (
         <>
-            <div className="bg-white text-black min-h-screen flex flex-col items-center mt-20">
+            <div className="bg-white text-black flex flex-col items-center mt-20">
                 <div className="w-full max-w-3xl px-6 py-12">
                     {/* Header Section */}
                     <h1 className="text-2xl md:text-7xl font-bold text-center mb-4">
